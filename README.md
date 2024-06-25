@@ -8,6 +8,8 @@ MyBatispuls、Minio、Knife4j
 
 hello-mp项目为MybatisPlus的案例项目
 
+hello-minio项目为Minio的案例项目
+
 
 
 ## MINIO
