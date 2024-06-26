@@ -37,6 +37,14 @@ password: `Lyqlah5577`$$
 
 
 
+# Redis
+
+启动客户端`redis-cli -h 127.0.0.1 -p 6379`
+
+127.0.0.1是默认的系统自身，6379是redis默认的端口号
+
+
+
 # 简历准备
 
 技术栈：（Vue+移动端）双前端，SpringBoot+MyBatis，MySQL+Redis+MINIO
