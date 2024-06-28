@@ -4,11 +4,7 @@
 
 Linux系统使用、虚拟机配置、MobaXterm远程SSH访问、NAT内网配置
 
-MyBatispuls、Minio、Knife4j
-
-hello-mp项目为MybatisPlus的案例项目
-
-hello-minio项目为Minio的案例项目
+MyBatispuls、Minio、Redis连接、Knife4j案例项目
 
 
 
@@ -47,4 +43,4 @@ password: `Lyqlah5577`$$
 
 # 简历准备
 
-技术栈：（Vue+移动端）双前端，SpringBoot+MyBatis，MySQL+Redis+MINIO
+技术栈：（Vue+移动端）双前端，SpringBoot+MyBatisPlus，MySQL+Redis+MINIO
