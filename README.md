@@ -44,3 +44,7 @@ password: `Lyqlah5577`$$
 # 简历准备
 
 技术栈：（Vue+移动端）双前端，SpringBoot+MyBatisPlus，MySQL+Redis+MINIO
+
+项目亮点：
+
+配置MybatisPlus的逻辑删除功能
