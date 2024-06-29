@@ -47,4 +47,6 @@ password: `Lyqlah5577`$$
 
 项目亮点：
 
-配置MybatisPlus的逻辑删除功能
+配置MybatisPlus的逻辑删除功能与自动填充功能，并在序列化时忽略相应字段
+
+注册自定义ConverterFactory映射前端请求，实现项目中的全部枚举类的自动构造
