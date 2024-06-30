@@ -50,3 +50,5 @@ password: `Lyqlah5577`$$
 配置MybatisPlus的逻辑删除功能与自动填充功能，并在序列化时忽略相应字段
 
 注册自定义ConverterFactory映射前端请求，实现项目中的全部枚举类的自动构造
+
+应用SpringMVC全局异常处理功能，统一处理所有异常使代码更易维护

@@ -1069,7 +1069,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </schema>
     <schema id="290" parent="1" name="lease">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-06-28.17:20:06</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-06-30.01:42:35</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
     <schema id="291" parent="1" name="mysql">
@@ -1297,7 +1297,7 @@ DYNAMIC</Options>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
     <column id="327" parent="299" name="id">
-      <AutoIncrement>231</AutoIncrement>
+      <AutoIncrement>230</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1339,7 +1339,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="335" parent="300" name="id">
-      <AutoIncrement>99</AutoIncrement>
+      <AutoIncrement>98</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1381,7 +1381,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="343" parent="301" name="id">
-      <AutoIncrement>11</AutoIncrement>
+      <AutoIncrement>10</AutoIncrement>
       <Comment>公寓id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -1479,7 +1479,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="362" parent="302" name="id">
-      <AutoIncrement>137</AutoIncrement>
+      <AutoIncrement>136</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1521,7 +1521,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="370" parent="303" name="id">
-      <AutoIncrement>11</AutoIncrement>
+      <AutoIncrement>10</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1558,7 +1558,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="377" parent="304" name="id">
-      <AutoIncrement>29</AutoIncrement>
+      <AutoIncrement>28</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1600,7 +1600,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="385" parent="305" name="id">
-      <AutoIncrement>112</AutoIncrement>
+      <AutoIncrement>111</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1643,7 +1643,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="394" parent="306" name="id">
-      <AutoIncrement>6591</AutoIncrement>
+      <AutoIncrement>6590</AutoIncrement>
       <Comment>城市id</Comment>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
@@ -1686,7 +1686,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="402" parent="307" name="id">
-      <AutoIncrement>659012</AutoIncrement>
+      <AutoIncrement>659011</AutoIncrement>
       <Comment>区域id</Comment>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
@@ -1776,7 +1776,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="419" parent="309" name="id">
-      <AutoIncrement>9</AutoIncrement>
+      <AutoIncrement>8</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1813,7 +1813,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="426" parent="310" name="id">
-      <AutoIncrement>23</AutoIncrement>
+      <AutoIncrement>22</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1860,7 +1860,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="435" parent="311" name="id">
-      <AutoIncrement>172</AutoIncrement>
+      <AutoIncrement>171</AutoIncrement>
       <Comment>图片id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -1913,7 +1913,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="445" parent="312" name="id">
-      <AutoIncrement>17</AutoIncrement>
+      <AutoIncrement>18</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1955,7 +1955,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="453" parent="313" name="id">
-      <AutoIncrement>7</AutoIncrement>
+      <AutoIncrement>6</AutoIncrement>
       <Comment>租约id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2101,7 +2101,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="481" parent="315" name="id">
-      <AutoIncrement>12</AutoIncrement>
+      <AutoIncrement>17</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -2132,8 +2132,8 @@ DYNAMIC</Options>
       <Position>6</Position>
     </column>
     <column id="487" parent="315" name="is_deleted">
-      <Comment>是否删除</Comment>
-      <DasType>tinyint|0s</DasType>
+      <DasType>int|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
       <Position>7</Position>
     </column>
     <index id="488" parent="315" name="PRIMARY">
@@ -2147,7 +2147,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="490" parent="316" name="id">
-      <AutoIncrement>66</AutoIncrement>
+      <AutoIncrement>65</AutoIncrement>
       <Comment>省份id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2185,7 +2185,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="497" parent="317" name="id">
-      <AutoIncrement>217</AutoIncrement>
+      <AutoIncrement>216</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -2227,7 +2227,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="505" parent="318" name="id">
-      <AutoIncrement>560</AutoIncrement>
+      <AutoIncrement>559</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -2269,7 +2269,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="513" parent="319" name="id">
-      <AutoIncrement>18</AutoIncrement>
+      <AutoIncrement>17</AutoIncrement>
       <Comment>房间id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2322,7 +2322,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="523" parent="320" name="id">
-      <AutoIncrement>135</AutoIncrement>
+      <AutoIncrement>134</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -2364,7 +2364,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="531" parent="321" name="id">
-      <AutoIncrement>186</AutoIncrement>
+      <AutoIncrement>185</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -2406,7 +2406,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="539" parent="322" name="id">
-      <AutoIncrement>185</AutoIncrement>
+      <AutoIncrement>184</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -2448,7 +2448,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="547" parent="323" name="id">
-      <AutoIncrement>9</AutoIncrement>
+      <AutoIncrement>8</AutoIncrement>
       <Comment>岗位ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2511,7 +2511,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="557" parent="324" name="id">
-      <AutoIncrement>3</AutoIncrement>
+      <AutoIncrement>2</AutoIncrement>
       <Comment>员工id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2589,7 +2589,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="572" parent="325" name="id">
-      <AutoIncrement>8</AutoIncrement>
+      <AutoIncrement>7</AutoIncrement>
       <Comment>用户id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2648,7 +2648,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="583" parent="326" name="id">
-      <AutoIncrement>12</AutoIncrement>
+      <AutoIncrement>11</AutoIncrement>
       <Comment>预约id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
