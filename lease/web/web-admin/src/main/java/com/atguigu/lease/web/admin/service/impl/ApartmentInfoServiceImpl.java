@@ -1,5 +1,7 @@
 package com.atguigu.lease.web.admin.service.impl;
 
+import com.atguigu.lease.common.exception.LeaseException;
+import com.atguigu.lease.common.result.ResultCodeEnum;
 import com.atguigu.lease.model.entity.*;
 import com.atguigu.lease.model.enums.ItemType;
 import com.atguigu.lease.web.admin.mapper.*;
@@ -57,6 +59,9 @@ public class ApartmentInfoServiceImpl extends ServiceImpl<ApartmentInfoMapper, A
 
     @Autowired
     private FeeValueMapper feeValueMapper;
+
+    @Autowired
+    private RoomInfoMapper roomInfoMapper;
     
     @Override
     public void saveOrUpdateApartment(ApartmentSubmitVo apartmentSubmitVo) {
@@ -173,6 +178,42 @@ public class ApartmentInfoServiceImpl extends ServiceImpl<ApartmentInfoMapper, A
         apartmentDetailVo.setFeeValueVoList(feeValueVoList);
 
         return apartmentDetailVo;
+    }
+
+    @Override
+    public void removeApartmentById(Long id) {
+
+        LambdaQueryWrapper<RoomInfo> roomQueryWrapper = new LambdaQueryWrapper<>();
+        roomQueryWrapper.eq(RoomInfo::getApartmentId, id);
+        Long count = roomInfoMapper.selectCount(roomQueryWrapper);
+
+        if (count > 0) {
+            // stop delete, and response message to user
+            throw new LeaseException(ResultCodeEnum.DELETE_ERROR);
+        }
+
+        super.removeById(id);
+
+        // 1. delete photo list
+        LambdaQueryWrapper<GraphInfo> graphQueryWrapper = new LambdaQueryWrapper<>();
+        graphQueryWrapper.eq(GraphInfo::getItemType, ItemType.APARTMENT);
+        graphQueryWrapper.eq(GraphInfo::getItemId, id);
+        graphInfoService.remove(graphQueryWrapper);
+
+        // 2. delete facility list
+        LambdaQueryWrapper<ApartmentFacility> facilityQueryWrapper = new LambdaQueryWrapper<>();
+        facilityQueryWrapper.eq(ApartmentFacility::getApartmentId, id);
+        apartmentFacilityService.remove(facilityQueryWrapper);
+
+        // 3. delete label list
+        LambdaQueryWrapper<ApartmentLabel> labelQueryWrapper = new LambdaQueryWrapper<>();
+        labelQueryWrapper.eq(ApartmentLabel::getApartmentId, id);
+        apartmentLabelService.remove(labelQueryWrapper);
+
+        // 4. delete fee list
+        LambdaQueryWrapper<ApartmentFeeValue> feeQueryWrapper = new LambdaQueryWrapper<>();
+        feeQueryWrapper.eq(ApartmentFeeValue::getApartmentId, id);
+        apartmentFeeValueService.remove(feeQueryWrapper);
     }
 
 }
