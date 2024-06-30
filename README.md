@@ -1,13 +1,5 @@
 # halstead租赁系统
 
-## 学习总结
-
-Linux系统使用、虚拟机配置、MobaXterm远程SSH访问、NAT内网配置
-
-MyBatispuls、Minio、Redis连接、Knife4j案例项目
-
-
-
 ## MINIO
 
 S3-API: http://192.168.10.101:9000  http://192.168.122.1:9000  http://127.0.0.1:9000
@@ -33,11 +25,25 @@ password: `Lyqlah5577`$$
 
 
 
-# Redis
+## Redis
 
 启动客户端`redis-cli -h 127.0.0.1 -p 6379`
 
 127.0.0.1是默认的系统自身，6379是redis默认的端口号
+
+
+
+# 学习总结
+
+Linux系统使用、虚拟机配置、MobaXterm远程SSH访问、NAT内网配置
+
+MyBatispuls、Minio、Redis连接、Knife4j案例项目
+
+
+
+该项目为单体项目，个人认为最大的特点是该项目的后台涉及到的数据库SQL查询逻辑十分的复杂，
+
+由于其数据表结构具有相当庞大的关联系统，每个租赁单位涉及到非常多的attribute
 
 
 
