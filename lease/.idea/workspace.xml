@@ -6,21 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4a215cb8-570b-440d-93d4-a3a79e6eda4e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/apartment/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/apartment/RoomController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/AttrValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/AttrValueMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/FacilityInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/FacilityInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/LabelInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/LabelInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/LeaseTermMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/LeaseTermMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/PaymentTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/PaymentTypeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/RoomInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/RoomInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/RoomInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/RoomInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/impl/RoomInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/impl/RoomInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/AttrValueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/AttrValueMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/FacilityInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/FacilityInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LabelInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LabelInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LeaseTermMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LeaseTermMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/PaymentTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/PaymentTypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/RoomInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/RoomInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/lease/model/entity/ViewAppointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/lease/model/entity/ViewAppointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/lease/ViewAppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/lease/ViewAppointmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/ViewAppointmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/ViewAppointmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/ViewAppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/ViewAppointmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/impl/ViewAppointmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/impl/ViewAppointmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ViewAppointmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ViewAppointmentMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +102,7 @@
       <updated>1719564171331</updated>
       <workItem from="1719564172377" duration="6444000" />
       <workItem from="1719595158203" duration="25958000" />
-      <workItem from="1719711736932" duration="18162000" />
+      <workItem from="1719711736932" duration="21849000" />
     </task>
     <servers />
   </component>
