@@ -43,7 +43,7 @@ MyBatispuls、Minio、Redis连接、Knife4j案例项目
 
 该项目为单体项目，个人认为最大的特点是该项目的后台涉及到的数据库SQL查询逻辑十分的复杂，
 
-由于其数据表结构具有相当庞大的关联系统，每个租赁单位涉及到非常多的attribute
+由于其数据表结构具有相当庞大的关联系统，每个租赁单位涉及到非常多的attribute，所以在写Mybatispuls对应的mapper文件时，需要配置复杂的query语句以及应用resultMap来映射复杂的返回结果
 
 
 
@@ -60,3 +60,5 @@ MyBatispuls、Minio、Redis连接、Knife4j案例项目
 应用SpringMVC全局异常处理功能，统一处理所有异常使代码更易维护
 
 接入高德地图的地理/逆地理编码API，实现结构化地址与经纬度之间相互转化的功能
+
+配置SpringBoot定时任务功能，实现定时检查租约状态功能以及数据库的主动刷新
