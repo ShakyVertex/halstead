@@ -189,7 +189,7 @@ public class ApartmentInfoServiceImpl extends ServiceImpl<ApartmentInfoMapper, A
 
         if (count > 0) {
             // stop delete, and response message to user
-            throw new LeaseException(ResultCodeEnum.DELETE_ERROR);
+            throw new LeaseException(ResultCodeEnum.ADMIN_APARTMENT_DELETE_ERROR);
         }
 
         super.removeById(id);
