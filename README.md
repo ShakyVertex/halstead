@@ -62,3 +62,5 @@ MyBatispuls、Minio、Redis连接、Knife4j案例项目
 接入高德地图的地理/逆地理编码API，实现结构化地址与经纬度之间相互转化的功能
 
 配置SpringBoot定时任务功能，实现定时检查租约状态功能以及数据库的主动刷新
+
+使用Apache Commons提供的MD5单向函数算法处理存储在数据库的用户密码

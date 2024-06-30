@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a215cb8-570b-440d-93d4-a3a79e6eda4e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/user/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/user/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/lease/model/entity/SystemUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/lease/model/entity/SystemUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/system/SystemPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/system/SystemPostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/system/SystemUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/system/SystemUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/SystemUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/SystemUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/SystemUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/SystemUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/impl/SystemUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/impl/SystemUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/SystemUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/SystemUserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +136,7 @@
       <updated>1719564171331</updated>
       <workItem from="1719564172377" duration="6444000" />
       <workItem from="1719595158203" duration="25958000" />
-      <workItem from="1719711736932" duration="26532000" />
+      <workItem from="1719711736932" duration="30023000" />
     </task>
     <servers />
   </component>
