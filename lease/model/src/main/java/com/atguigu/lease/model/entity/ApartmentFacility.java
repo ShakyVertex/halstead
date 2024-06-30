@@ -3,6 +3,7 @@ package com.atguigu.lease.model.entity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.v3.oas.annotations.media.Schema;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
@@ -10,6 +11,7 @@ import lombok.Data;
 @TableName(value = "apartment_facility")
 @Data
 @Builder
+@AllArgsConstructor
 public class ApartmentFacility extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
@@ -23,4 +25,7 @@ public class ApartmentFacility extends BaseEntity {
     private Long facilityId;
 
 
+    public ApartmentFacility() {
+
+    }
 }

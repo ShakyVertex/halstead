@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a215cb8-570b-440d-93d4-a3a79e6eda4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atguigu/lease/common/exception/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/66c9bd2f-979a-4a49-a6dc-0b44e5bfc501.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/66c9bd2f-979a-4a49-a6dc-0b44e5bfc501.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc999044-56fc-4b9d-889e-7b1b54aadd52.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc999044-56fc-4b9d-889e-7b1b54aadd52/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc999044-56fc-4b9d-889e-7b1b54aadd52/storage_v2/_src_/schema/lease.Wk4hBg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc999044-56fc-4b9d-889e-7b1b54aadd52/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc999044-56fc-4b9d-889e-7b1b54aadd52/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc999044-56fc-4b9d-889e-7b1b54aadd52/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/apartment/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/apartment/FileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/atguigu/lease/common/mybatisplus/MybatisPlusConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/atguigu/lease/common/mybatisplus/MybatisPlusConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/lease/model/entity/ApartmentFacility.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/lease/model/entity/ApartmentFacility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/lease/model/entity/ApartmentFeeValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/lease/model/entity/ApartmentFeeValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/lease/model/entity/ApartmentLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/lease/model/entity/ApartmentLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/apartment/ApartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/controller/apartment/ApartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/ApartmentInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/mapper/ApartmentInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/ApartmentInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/ApartmentInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/impl/ApartmentInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/impl/ApartmentInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ApartmentInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ApartmentInfoMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +107,7 @@
       <updated>1719564171331</updated>
       <workItem from="1719564172377" duration="6444000" />
       <workItem from="1719595158203" duration="25958000" />
-      <workItem from="1719711736932" duration="1665000" />
+      <workItem from="1719711736932" duration="9864000" />
     </task>
     <servers />
   </component>
