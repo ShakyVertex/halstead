@@ -42,6 +42,6 @@ public class JwtUtil {
     }
 
     public static void main(String[] args) {
-        System.out.println(createToken(2L, "user"));
+        System.out.println(createToken(8L, "19980816235"));
     }
 }
