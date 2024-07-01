@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a215cb8-570b-440d-93d4-a3a79e6eda4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atguigu/lease/common/sms/AliyunSMSConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atguigu/lease/common/sms/AliyunSMSProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atguigu/lease/common/utils/CodeUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/atguigu/lease/common/minio/MinioConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/atguigu/lease/common/minio/MinioConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/app/custom/config/Knife4jConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/app/custom/config/Knife4jConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/AppWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/AppWebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/SmsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/SmsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/impl/SmsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/impl/SmsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/controller/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/controller/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/impl/LoginServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +44,7 @@
   "keyToString": {
     "Application.JwtUtil.executor": "Run",
     "JUnit.ScheduleTasksTest.test.executor": "Run",
+    "JUnit.SmsServiceImplTest.sendCode.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -90,10 +87,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.atguigu.lease.web.app.service.impl" />
       <recent name="com.atguigu.lease.web.admin.schedule" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmsServiceImplTest.sendCode">
+  <component name="RunManager" selected="Spring Boot.AppWebApplication">
     <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.lease.common.utils.JwtUtil" />
       <module name="common" />
@@ -161,8 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SmsServiceImplTest.sendCode" />
         <item itemvalue="Spring Boot.AppWebApplication" />
+        <item itemvalue="JUnit.SmsServiceImplTest.sendCode" />
         <item itemvalue="Application.JwtUtil" />
         <item itemvalue="JUnit.ScheduleTasksTest.test" />
       </list>
@@ -185,7 +183,7 @@
       <updated>1719564171331</updated>
       <workItem from="1719564172377" duration="6444000" />
       <workItem from="1719595158203" duration="25958000" />
-      <workItem from="1719711736932" duration="48833000" />
+      <workItem from="1719711736932" duration="50086000" />
     </task>
     <servers />
   </component>
