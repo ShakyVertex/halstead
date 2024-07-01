@@ -17,4 +17,7 @@ import java.math.BigDecimal;
 */
 public interface RoomInfoMapper extends BaseMapper<RoomInfo> {
 
+    IPage<RoomItemVo> pageItem(Page<RoomItemVo> page, RoomQueryVo queryVo);
+
+    IPage<RoomItemVo> pageItemByApartmentId(Page<RoomItemVo> page, Long id);
 }

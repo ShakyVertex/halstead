@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a215cb8-570b-440d-93d4-a3a79e6eda4e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/controller/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/controller/login/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/controller/payment/PaymentTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/controller/payment/PaymentTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/controller/region/RegionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/controller/region/RegionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/controller/room/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/controller/room/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/mapper/RoomInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/mapper/RoomInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/RoomInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/RoomInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/impl/RoomInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/impl/RoomInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomInfoMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +185,7 @@
       <updated>1719564171331</updated>
       <workItem from="1719564172377" duration="6444000" />
       <workItem from="1719595158203" duration="25958000" />
-      <workItem from="1719711736932" duration="53721000" />
+      <workItem from="1719711736932" duration="61059000" />
     </task>
     <servers />
   </component>
