@@ -33,6 +33,14 @@ password: `Lyqlah5577`$$
 
 
 
+# 阿里云
+
+AccessKeyID: **LTAI5tAGpZPZKmx7xgP45faL**
+
+AccessKeySecret: **Q019KaFbv49zUUncBXTmrxgh3VJRjx**
+
+
+
 # 学习总结
 
 Linux系统使用、虚拟机配置、MobaXterm远程SSH访问、NAT内网配置
@@ -61,12 +69,10 @@ MyBatispuls、Minio、Redis连接、Knife4j案例项目
 
 项目亮点：
 
-* 配置MybatisPlus的逻辑删除功能与自动填充功能，并在序列化时忽略相应字段
-
 * 注册自定义ConverterFactory映射前端请求，实现项目中的全部枚举类的自动构造
-
-* 接入高德地图的地理/逆地理编码API，实现结构化地址与经纬度之间相互转化
 
 * 配置SpringBoot定时任务功能，实现定时检查租约状态功能以及数据库的主动刷新
 
 * 配置MD5算法+EasyCaptcha验证码+JWT自定义拦截器实现登录校验与操作授权
+* 接入高德地图的地理/逆地理编码API，实现结构化地址与经纬度之间相互转化
+* 接入阿里云短信服务，实现移动端手机验证码登录功能
