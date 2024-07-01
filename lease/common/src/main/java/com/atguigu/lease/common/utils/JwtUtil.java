@@ -24,7 +24,7 @@ public class JwtUtil {
         return jwt;
     }
 
-    public static void parseToken(String token) {
+    public static Claims parseToken(String token) {
 
         if (token == null) {
             throw new LeaseException(ResultCodeEnum.ADMIN_LOGIN_AUTH);
@@ -32,7 +32,8 @@ public class JwtUtil {
 
         try {
             JwtParser jwtParser = Jwts.parserBuilder().setSigningKey(secretKey).build();
-            jwtParser.parseClaimsJws(token);
+            Jws<Claims> claimsJws = jwtParser.parseClaimsJws(token);
+            return claimsJws.getBody();
         } catch (ExpiredJwtException e) {
             throw new LeaseException(ResultCodeEnum.TOKEN_EXPIRED);
         } catch (JwtException e) {
