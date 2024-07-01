@@ -67,8 +67,6 @@ MyBatispuls、Minio、Redis连接、Knife4j案例项目
 
 技术栈：（Vue+移动端）双前端，SpringBoot+MyBatisPlus，MySQL+Redis+MINIO
 
-项目亮点：
-
 * 灵活应用MybatisPlus嵌套查询和嵌套结果映射来满足复杂的多表查询和分页查询需求
 
 * 注册自定义ConverterFactory映射前端请求，实现项目中的全部枚举类的自动构造
@@ -76,6 +74,7 @@ MyBatispuls、Minio、Redis连接、Knife4j案例项目
 * 配置SpringBoot定时任务功能，实现定时检查租约状态功能以及数据库的主动刷新
 
 * 应用MD5算法+EasyCaptcha验证码+JWT自定义拦截器方案实现登录校验与操作授权
-* 接入高德地图的地理/逆地理编码API，实现结构化地址与经纬度之间相互转化
 * 接入阿里云短信服务，实现移动端验证码登录功能，并设置Key过期时间与限制发送频率
+* 调用SpringBoot异步支持，实现异步后台保存用户浏览记录以减少接口响应时间
+* 接入高德地图的地理/逆地理编码API，实现结构化地址与经纬度之间相互转化
 
