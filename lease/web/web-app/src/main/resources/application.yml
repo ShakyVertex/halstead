@@ -6,7 +6,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://192.168.10.101:3306/lease?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2b8
     username: root
-    password: Lyqlah5577$$
+    password: <mysql-password>
     hikari:
       connection-test-query: SELECT 1 # 自动检测连接
       connection-timeout: 60000 #数据库连接超时时间,默认30秒
@@ -33,6 +33,6 @@ springdoc:
 
 aliyun:
   sms:
-    access-key-id: LTAI5tAGpZPZKmx7xgP45faL
-    access-key-secret: Q019KaFbv49zUUncBXTmrxgh3VJRjx
+    access-key-id: <ali-cloud-key>
+    access-key-secret: <ali-cloud-secret>
     endpoint: dysmsapi.aliyuncs.com

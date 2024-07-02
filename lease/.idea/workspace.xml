@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a215cb8-570b-440d-93d4-a3a79e6eda4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/atguigu/lease/common/redis/RedisConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bc66e9da-6a1a-4248-a648-55412231abbf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bc66e9da-6a1a-4248-a648-55412231abbf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/impl/RoomInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/impl/RoomInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/impl/RoomInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/atguigu/lease/web/app/service/impl/RoomInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/app/custom/config/Knife4jConfiguration.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +41,7 @@
     &quot;Application.JwtUtil.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ScheduleTasksTest.test.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SmsServiceImplTest.sendCode.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lease [clean,package].executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -91,7 +88,7 @@
       <recent name="com.atguigu.lease.web.admin.schedule" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppWebApplication">
+  <component name="RunManager" selected="Spring Boot.AdminWebApplication">
     <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.lease.common.utils.JwtUtil" />
       <module name="common" />
@@ -185,6 +182,8 @@
       <workItem from="1719595158203" duration="25958000" />
       <workItem from="1719711736932" duration="69290000" />
       <workItem from="1719887214676" duration="2949000" />
+      <workItem from="1719900420302" duration="328000" />
+      <workItem from="1719900767320" duration="1083000" />
     </task>
     <servers />
   </component>

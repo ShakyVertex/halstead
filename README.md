@@ -1,57 +1,16 @@
 # halstead租赁系统
 
-## MINIO
-
-S3-API: http://192.168.10.101:9000  http://192.168.122.1:9000  http://127.0.0.1:9000
-RootUser: `minioadmin`
-RootPass: `minioadmin`
-
-Console: http://192.168.10.101:43391 http://192.168.122.1:43391 http://127.0.0.1:43391
-RootUser: `minioadmin`
-RootPass: `minioadmin`
-
-MINIO_ROOT_USER=`minioadmin`
-MINIO_ROOT_PASSWORD=`minioadmin`
-MINIO_VOLUMES=`/data`
-MINIO_OPTS=`"--console-address :9001"`
-
-
-
-## MySQL : Server01
-
-username: `root`
-
-password: `Lyqlah5577`$$
-
-
-
-## Redis
-
-启动客户端`redis-cli -h 127.0.0.1 -p 6379`
-
-127.0.0.1是默认的系统自身，6379是redis默认的端口号
-
-
-
-# 阿里云
-
-AccessKeyID: **LTAI5tAGpZPZKmx7xgP45faL**
-
-AccessKeySecret: **Q019KaFbv49zUUncBXTmrxgh3VJRjx**
-
-
-
-# 学习总结
-
 Linux系统使用、虚拟机配置、MobaXterm远程SSH访问、NAT内网配置
 
 MyBatispuls、Minio、Redis连接、Knife4j案例项目
+
+最终会部署2台虚拟机，本机使用NAT对项目进行连接，静态的前端内容和Nginx服务会部署在一台linux虚拟机上，而后端的Spring项目（移动端后台和管理类端后台）会部署在另一台虚拟机。
 
 
 
 该项目为单体项目，个人认为最大的难点是该项目的后台涉及到的数据库SQL查询逻辑十分的复杂，
 
-由于其数据表结构具有相当庞大的关联系统，每个租赁单位涉及到非常多的attribute，所以在写Mybatisplus自定义mapper时，需要配置复杂的query语句以及应用resultMap来映射复杂的返回结果
+由于其数据表结构具有相当庞大的关联系统，每个租赁单位涉及到非常多的attribute，所以在写Mybatisplus自定义mapper时，需要配置复杂的query语句以及应用resultMap来映射复杂的返回结果。
 
 
 
@@ -74,5 +33,5 @@ MyBatispuls、Minio、Redis连接、Knife4j案例项目
 * 接入阿里云短信服务，实现移动端验证码登录功能，并设置Key过期时间与限制发送频率
 * 调用SpringBoot异步支持，实现异步后台保存用户浏览记录以减少接口响应时间
 * 使用延迟删除+主动更新的缓存优化方案，将核心业务接口的平均响应时间从39ms降低至5ms
-* 使用Nginx作为静态资源http服务器，部署后端服务的反向代理、负载均衡和域名映射
+* 使用Nginx作为静态资源http服务器，部署后端服务的反向代理和负载均衡
 
