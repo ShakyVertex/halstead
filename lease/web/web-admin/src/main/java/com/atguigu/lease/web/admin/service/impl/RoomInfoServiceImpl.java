@@ -4,6 +4,7 @@ import com.atguigu.lease.common.constant.RedisConstant;
 import com.atguigu.lease.model.entity.*;
 import com.atguigu.lease.model.enums.ItemType;
 import com.atguigu.lease.web.admin.mapper.*;
+import com.atguigu.lease.web.admin.schedule.ScheduleTasks;
 import com.atguigu.lease.web.admin.service.*;
 import com.atguigu.lease.web.admin.vo.attr.AttrValueVo;
 import com.atguigu.lease.web.admin.vo.graph.GraphVo;
@@ -77,6 +78,7 @@ public class RoomInfoServiceImpl extends ServiceImpl<RoomInfoMapper, RoomInfo>
     @Autowired
     private RedisTemplate<String, Object> redisTemplate;
 
+
     @Override
     public void saveOrUpdateRoom(RoomSubmitVo roomSubmitVo) {
         boolean isUpdate = roomSubmitVo.getId() != null;
@@ -119,6 +121,9 @@ public class RoomInfoServiceImpl extends ServiceImpl<RoomInfoMapper, RoomInfo>
             // 删除缓存
             String key = RedisConstant.APP_ROOM_PREFIX + roomSubmitVo.getId();
             redisTemplate.delete(key);
+
+            // 延迟双删
+            redisTemplate.opsForSet().add(RedisConstant.ADMIN_DOUBLE_DELETE, key);
         }
 
         //1.保存新的graphInfoList
